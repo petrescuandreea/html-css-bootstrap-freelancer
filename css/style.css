@@ -1,0 +1,14 @@
+[class*="col-"] {
+    min-height: 50px;
+    background-color: rgba(0,108,250,255);
+    border: 1px solid white;
+ }
+
+
+ /* header  */
+ header {
+     background-color: rgba(44,62,80,255);
+     height: 80px;
+     display: flex;
+     align-items: center;
+ }
