@@ -25,49 +25,66 @@
 
 
 
- /* main part  */
- main {
-    background-color: rgb(225, 0, 255);
- }
-
- /* portfolio  */
- .port_item {
-     height: 400px;
-     background-color: brown;
-     border: 1px solid white;
- }
-
-
- /* about  */
- #about {
-     height: 450px;
-     background-color: yellowgreen;
- }
-
- /* title  */
- .title {
-     background-color: violet;
- }
-
-/* content  */
- .about-content {
-     min-height: 150px;
-     background-color: rgb(77, 8, 204);
-     border: 1px solid white;
- }
-
- .cta {
-     min-height: 50px;
-     background-color: coral;
-     border: 1px solid black;
- }
-
-
- /* contacto me  */
-#form {
-    min-height: 250px;
-    background-color: crimson;
+/* main part  */
+    /* portfolio  */
+#portfolio {
+    /* height: 400px; */
+    background-color: bisque;
 }
+
+.bk-portfolio {
+    /* height: 400px; */
+    background-color: blueviolet;
+}
+
+.bk-title {
+    height: 50px;
+    background-color: burlywood;
+}
+
+.portfolio-item {
+    height: 150px;
+    background-color: chocolate;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+    /* about  */
+#about {
+    height: 500px;
+    background-color: rgba(26,188,156,255);
+}
+
+.about-container {
+    /* height: 500px; */
+    background-color: darkgray;
+}
+
+.about-content {
+    height: 200px;
+    background-color: rgb(235, 82, 82);
+    border: 1px solid black;
+}
+
+.cta {
+    height: 50px;
+    background-color: rgb(108, 141, 17);
+    border: 1px solid black;
+}
+
+
+    /* contact me  */
+#contact-me {
+    /* height: 250px; */
+    background-color: rgb(2, 112, 26);
+}
+
+.form {
+    height: 150px;
+    background-color: rgb(46, 211, 134);
+}
+
 
  /* footer  */
  footer {
