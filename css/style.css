@@ -24,9 +24,53 @@
     background-color: rgb(225, 0, 255);
  }
 
+ /* portfolio  */
  .port_item {
      height: 400px;
      background-color: brown;
      border: 1px solid white;
  }
 
+
+ /* about  */
+ #about {
+     height: 450px;
+     background-color: yellowgreen;
+ }
+
+ /* title  */
+ .title {
+     background-color: violet;
+ }
+
+/* content  */
+ .about-content {
+     min-height: 150px;
+     background-color: rgb(77, 8, 204);
+     border: 1px solid white;
+ }
+
+ .cta {
+     min-height: 50px;
+     background-color: coral;
+     border: 1px solid black;
+ }
+
+
+ /* contacto me  */
+#form {
+    height: 250px;
+    background-color: crimson;
+}
+
+ /* footer  */
+ footer {
+     
+     background-color: black;
+ }
+
+ .footer-content {
+     height: 50px;
+     background-color: cadetblue;
+     border: 1px solid black;
+ }
