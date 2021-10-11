@@ -1,22 +1,28 @@
-.my-col{
-    min-height: 50px;
-    background-color: rgba(0,108,250,255);
-    border: 1px solid white;
- }
-
-
- /* header  */
+/* header  */
  header {
      background-color: rgba(44,62,80,255);
-     height: 80px;
+     /* height: 80px; */
  }
 
+    /* nav bar  */
+ #nav-container {
+    background-color: rgba(44,62,80,255);
+    height: 100px;
+    width: 100%;
+}
 
- /* jumbotron  */
- #jumbotron {
-     height: 400px;
-     background-color: aqua;
- }
+.bk-nav {
+    background-color: aqua;
+    height: 50px;
+}
+
+
+    /* jumbo */
+#jumbo-container {
+    height: 300px;
+    background-color: rgba(26,188,156,255);
+}
+
 
 
  /* main part  */
@@ -59,7 +65,7 @@
 
  /* contacto me  */
 #form {
-    height: 250px;
+    min-height: 250px;
     background-color: crimson;
 }
 
