@@ -1,4 +1,4 @@
-[class*="col-"] {
+.my-col{
     min-height: 50px;
     background-color: rgba(0,108,250,255);
     border: 1px solid white;
@@ -9,6 +9,24 @@
  header {
      background-color: rgba(44,62,80,255);
      height: 80px;
-     display: flex;
-     align-items: center;
  }
+
+
+ /* jumbotron  */
+ #jumbotron {
+     height: 400px;
+     background-color: aqua;
+ }
+
+
+ /* main part  */
+ main {
+    background-color: rgb(225, 0, 255);
+ }
+
+ .port_item {
+     height: 400px;
+     background-color: brown;
+     border: 1px solid white;
+ }
+
