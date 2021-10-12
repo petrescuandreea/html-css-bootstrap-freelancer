@@ -104,11 +104,11 @@ img {
     
 }
 
-/* .cta {
+ /* .cta {
     height: 50px;
     background-color: rgb(175, 150, 233);
     border: 1px solid black;
-} */
+}  */
 
 #about .cta .btn .fas {
     display: inline;
@@ -134,16 +134,38 @@ img {
 
  /* footer  */
      /* up  */
-#up {
+footer #up {
     /* height: 300px; */
     background-color: rgba(58,84,109,255);
+    padding: 20px 0;
+    color: white;
 }
 
-.up-content {
+footer .footer-item {
+    /* height: 100px;
+    background-color:yellowgreen; */
+    margin: 15px;
+} 
+
+footer #up .fab {
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px 15px;
+    margin: 5px;
+}
+
+footer #up a {
+    text-decoration: none;
+    color: rgba(36,158,142,255);
+}
+/* .up-content {
     height: 100px;
     background-color: cornsilk;
     border: 1px solid black;
-}
+} */
+
+
 
 #down {
     height: 100px;
