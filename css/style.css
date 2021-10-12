@@ -18,11 +18,24 @@
 
 
     /* jumbo */
-#jumbo-container {
-    height: 600px;
+#jumbo {
+    /* height: 600px; */
     background-color: rgba(26,188,156,255);
+    padding: 50px 0;
 }
 
+/* #jumbo #avatar-container {
+   background-color: tomato;
+   height: 100px; 
+} */
+
+#jumbo #avatar-container img {
+    width: 250px;
+}
+
+#jumbo h1 {
+    margin: 25px 0;
+}
 
 /* main part  */
     /* portfolio  */
@@ -31,7 +44,7 @@
     background-color: burlywood;
 } */
 
-h1 {
+h2 {
     text-align: center;
     color: rgba(51,51,51,255);
     margin-top: 40px;
@@ -66,7 +79,7 @@ h1 {
     margin: 20px 0;
 }
 
-img {
+#portfolio img {
     width: 100%;
     object-fit: cover;
     border-radius: 20px;
@@ -165,8 +178,7 @@ footer #up a {
     border: 1px solid black;
 } */
 
-
-
+    /* down  */
 #down {
     /* height: 100px; */
     padding: 35px 0;
