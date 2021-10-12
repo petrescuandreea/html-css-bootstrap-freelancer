@@ -27,17 +27,39 @@
 
 /* main part  */
     /* portfolio  */
-
-.bk-title {
+/* .bk-title {
     height: 50px;
     background-color: burlywood;
+} */
+
+h1 {
+    text-align: center;
+    color: rgba(51,51,51,255);
+    margin-top: 40px;
 }
 
-.portfolio-item {
+.star-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star-container .line {
+    width: 200px; 
+    height: 4px;
+    background-color: rgba(44,62,80,255);
+    border-radius: 25px;
+}
+.star-container .fas {
+    font-size: 35px;
+    margin: 0 25px;
+}
+
+/* .portfolio-item {
     min-height: 150px;
     background-color: chocolate;
     border: 1px solid black;
-}
+} */
 
 .content {
     /* min-height: 200px;
