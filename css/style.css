@@ -19,10 +19,9 @@
 
     /* jumbo */
 #jumbo-container {
-    height: 300px;
+    height: 600px;
     background-color: rgba(26,188,156,255);
 }
-
 
 
 /* main part  */
@@ -78,6 +77,15 @@ img {
 #about {
     /* height: 500px; */
     background-color: rgba(26,188,156,255);
+    padding-bottom: 40px;
+}
+
+#about .white {
+    color: white;
+}
+
+#about .line.white {
+    background-color: white;
 }
 
 .about-container {
@@ -85,16 +93,30 @@ img {
     background-color: darkgray;
 }
 
-.about-content {
+/* .about-content {
     height: 200px;
     background-color: rgb(235, 82, 82);
     border: 1px solid black;
+} */
+
+#about .content {
+    font-size: 15px;
+    
 }
 
-.cta {
+/* .cta {
     height: 50px;
-    background-color: rgb(108, 141, 17);
+    background-color: rgb(175, 150, 233);
     border: 1px solid black;
+} */
+
+#about .cta .btn .fas {
+    display: inline;
+    margin-right: 5px;
+}
+
+#about .cta .btn-outline-secondary {
+    color: white;
 }
 
 
