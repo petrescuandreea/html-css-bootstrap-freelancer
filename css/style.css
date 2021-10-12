@@ -126,23 +126,19 @@ h2 {
     color: white;
 }
 
-
-
-.about-container {
-    /* height: 500px; */
-    background-color: darkgray;
+    /* content  */
+#about .left-col {
+    padding-left: 40px;
 }
 
-/* .about-content {
-    height: 200px;
-    background-color: rgb(235, 82, 82);
-    border: 1px solid black;
-} */
+#about .right-col {
+    padding-right: 40px;
+}
 
 #about .content {
     font-size: 15px;
-    
 }
+
 
  /* .cta {
     height: 50px;
