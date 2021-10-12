@@ -1,3 +1,23 @@
+/* general rules  */
+.star-container .line {
+    width: 200px; 
+    height: 4px;
+    border-radius: 25px; 
+}
+
+#jumbo .line.white , #about .line.white {
+    background-color: white;
+}
+
+#portfolio .star-container .line.grey {
+    background-color: rgba(44,62,80,255);
+}
+
+.fas.white-star {
+    color: white;
+}
+
+
 /* header  */
  header {
      /* background-color: rgba(44,62,80,255); */
@@ -37,6 +57,12 @@
     margin: 25px 0;
 }
 
+#jumbo #profile {
+    margin: 20px 0;
+    color: white;
+    font-size: 20px;
+}
+
 /* main part  */
     /* portfolio  */
 /* .bk-title {
@@ -56,12 +82,7 @@ h2 {
     align-items: center;
 }
 
-.star-container .line {
-    width: 200px; 
-    height: 4px;
-    background-color: rgba(44,62,80,255);
-    border-radius: 25px;
-}
+
 .star-container .fas {
     font-size: 35px;
     margin: 0 25px;
@@ -97,9 +118,7 @@ h2 {
     color: white;
 }
 
-#about .line.white {
-    background-color: white;
-}
+
 
 .about-container {
     /* height: 500px; */
